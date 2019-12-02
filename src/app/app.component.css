@@ -1,0 +1,28 @@
+.green{
+    color:green;
+}
+
+.red{
+    color:red;
+}
+
+.blue{
+    color:blue;
+}
+
+.container {
+    margin:0;
+    padding:0;
+}
+
+.center {
+    text-align: center;
+}
+
+.contextCenter {
+    text-align: center;
+}
+
+.margin {
+    margin: 10px 10px;
+}

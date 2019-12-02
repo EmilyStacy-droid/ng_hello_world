@@ -26,10 +26,11 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('ng-hello-world');
   });
 
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('ng-hello-world app is running!');
-  });
+  //getting deleted
+  // it('should render title', () => {
+  //   const fixture = TestBed.createComponent(AppComponent);
+  //   fixture.detectChanges();
+  //   const compiled = fixture.debugElement.nativeElement;
+  //   expect(compiled.querySelector('.content span').textContent).toContain('this is Emily');
+  // });
 });
