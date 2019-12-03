@@ -1,0 +1,24 @@
+<table class="table table-striped">
+    <thead>
+      <tr>
+      <th scope="col"> Index</th>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Is Employee</th>
+        <th scope="col">Department</th>
+        <th>&nbsp;</th>
+      
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let account of  accounts">
+            <td>{{account.id}}</td>
+            <td>{{account.name}}</td>
+            <td>{{account.email}}</td>
+            <td>{{account.isEmployee}}</td>
+            <td>{{account.departmentId}}</td>
+            
+          </tr>
+    
+    </tbody>
+  </table>
